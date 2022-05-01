@@ -1,0 +1,46 @@
+.footer {
+  display: grid;
+  padding-top: 5rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  background-color: black;
+  color: white;
+}
+
+.footer-categories {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 0.5rem;
+}
+.footer-categories > li {
+  opacity: 70%;
+  transition: all 0.5s;
+  font-size: 12px;
+}
+.footer-categories > li:hover {
+  opacity: 100%;
+  transition: all 0.5s;
+}
+
+.footer-bottom {
+  color: white;
+  background-color: black;
+  padding: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.copyright {
+  padding-left: 20px;
+  opacity: 70%;
+}
+
+.privacy {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+  opacity: 70%;
+}
